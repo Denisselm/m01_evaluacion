@@ -48,8 +48,8 @@
         }
         
         footer {
-            background-color: rgba(222, 106, 17, 0.492);
-            height: 4.75rem;
+            background-color: rgba(102, 189, 221, 0.707);
+            height: 3.75rem;
             text-align: center;
             display: flex;
             justify-content: center;
@@ -60,6 +60,10 @@
             font-weight: 200;
             color: #ffff;
             text-shadow: 4px 4px 6px rgb(20, 65, 123);
+        }
+        
+        section {
+            position: relative;
         }
         
         h3 {
@@ -76,9 +80,40 @@
         .card {
             width: 460px;
             background-color: rgba(255, 255, 255, 0.563);
-            margin-top: 40px;
+            margin-top: 15px;
         }
         
         .noticias-img {
-            margin-top: 50px;
+            margin-top: 40px;
+        }
+        
+        .btn-noticias {
+            height: 50px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        .btn-style {
+            font-size: 30px;
+        }
+        
+        iframe {
+            width: 400px;
+            height: 780px;
+            margin: 40px 20px 20px 20px;
+        }
+        
+        .card-contacto {
+            width: 500px;
+            padding: 90px;
+            margin-bottom: 0;
+        }
+        
+        .contacto-img {
+            width: 440px;
+            height: 500px;
+            padding-bottom: 50px;
+            margin-right: 20px;
+            margin-top: 0;
         }

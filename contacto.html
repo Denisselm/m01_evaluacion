@@ -5,16 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--cdn fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!--cdn font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <!--cdn bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--link a mis estilos-->
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <!--columnas-->
-    <section class="row">
-        <article>
-            <div class="col-12 col-md-6 col-lg-4 ">
-                <div class="columna">
-                    <h2>Suscríbete</h2>
+    <section class="row section-noticias">
+        <div class="card mb-3 col-12 col-md-4 card">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <h2 class="suscripcion-h2">Suscríbete</h2>
                     <div class="form">
                         <label>Nombre:</label>
                         <input type="text" required placeholder="Ingresa tu Nombre">
@@ -35,24 +46,31 @@
                         </div>
                     </div>
                 </div>
-        </article>
-        <article class="d-none d-none d-lg-block col-lg-4">
-            <div class="columna">
-                <img src="./img/ladybug-beetle-coccinellidae-insect-121472.jpeg" alt="" class="columna-2">
             </div>
-        </article>
-        <article class="col-12 col-md-6 col-lg-4 ">
-            <div class="columna column-article">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae accusantium eligendi voluptatum libero, quod veritatis placeat deleniti fugiat aliquid ad quisquam, aperiam neque quo eaque vero non repellat reprehenderit. Recusandae, voluptatum
-                debitis repellendus amet nam nisi asperiores sint veniam consequatur quod ad, harum, cupiditate placeat dicta quas beatae! Quibusdam libero hic optio quasi voluptatibus amet, perferendis rem esse error? Qui explicabo nemo eveniet architecto
-                repellat reprehenderit aliquid voluptatum eius inventore voluptates fugit temporibus libero impedit laudantium quaerat, error earum nulla sequi eaque expedita praesentium veritatis? Quo, quisquam! Ipsam, veniam? Dignissimos libero ducimus
-                nisi dolorem molestiae maiores eius porro sed provident non itaque beatae, culpa soluta et at maxime praesentium nostrum. Debitis unde commodi dolores similique.
+        </div>
+        <div class="card mb-3 col-12 col-md-4 card">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102197.98141446672!2d-73.10308579426089!3d-36.82602156054612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5cdd2bbc63b%3A0x44cb37b752212698!2zQ29uY2VwY2nDs24sIELDrW8gQsOtbw!5e0!3m2!1ses!2scl!4v1653696021483!5m2!1ses!2scl"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-        </article>
+        </div>
+        <div class="card mb-3 col-12 col-md-4 card">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <h4 class="h4-contacto">Contacto</h4>
+                    <h5 class="h5-contacto">Fono Municipalidad: <br> +42 48767534</h5>
+                    <h5 class="h5-contacto">Fono Direccion del Turismo: <br> +42 49876532</h5>
+                    <h5 class="h5-contacto">Email: <br> municipalidadconcepcion@admin.cl</h5>
+                    <h5 class="h5-contacto">Síguenos en <br> @concepcionlugaresyturismo</h5>
+                    <img src="./img/contact.jpg" class="contacto-img" alt="ciudad">
+                </div>
+            </div>
+        </div>
 
-
+        <button class="btn-noticias"><a href="./index.html" class="btn-style">Volver al Inicio</a></button>
     </section>
-
 </body>
 
 </html>
