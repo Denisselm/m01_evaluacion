@@ -1,119 +1,151 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Oswald', sans-serif;
-            background-image: url(https://media.istockphoto.com/photos/colorful-defocused-abstract-photo-blur-background-picture-id494347092?b=1&k=20&m=494347092&s=170667a&w=0&h=I_IEFTnpBTQZc9e2wjuQezWU_7Yi5t_0F1EgBD3IaNQ=);
-            background-repeat: no-repeat;
-            background-size: cover;
-            overflow-x: hidden;
-        }
-        
-        #nav {
-            height: 4.375rem;
-            background-color: rgba(255, 255, 255, 0.563);
-        }
-        
-        .navbar-brand {
-            font-size: 2.188rem;
-            margin-left: 1.875rem;
-            text-shadow: 3px 3px 5px rgb(222, 106, 17);
-        }
-        
-        .nav-link {
-            font-size: 1.563rem;
-            margin-right: 1.875rem;
-        }
-        
-        .img-carousel {
-            width: 100%;
-            height: 58rem;
-        }
-        
-        p {
-            font-size: 1.563rem;
-        }
-        
-        h1 {
-            text-shadow: 2px 2px 4px rgb(222, 106, 17);
-            text-align: center;
-        }
-        
-        .article {
-            margin: 50px 40px 50px 40px;
-            text-align: center;
-        }
-        
-        footer {
-            background-color: rgba(102, 189, 221, 0.707);
-            height: 3.75rem;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-        
-        .footer-icon {
-            font-size: 3rem;
-            font-weight: 200;
-            color: #ffff;
-            text-shadow: 4px 4px 6px rgb(20, 65, 123);
-        }
-        
-        section {
-            position: relative;
-        }
-        
-        h3 {
-            font-size: 25px;
-            margin-top: 20px;
-        }
-        
-        .section-noticias {
-            justify-content: center;
-            justify-content: space-around;
-            margin-top: 30px;
-        }
-        
-        .card {
-            width: 460px;
-            background-color: rgba(255, 255, 255, 0.563);
-            margin-top: 15px;
-        }
-        
-        .noticias-img {
-            margin-top: 40px;
-        }
-        
-        .btn-noticias {
-            height: 50px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        
-        .btn-style {
-            font-size: 30px;
-        }
-        
-        iframe {
-            width: 400px;
-            height: 780px;
-            margin: 40px 20px 20px 20px;
-        }
-        
-        .card-contacto {
-            width: 500px;
-            padding: 90px;
-            margin-bottom: 0;
-        }
-        
-        .contacto-img {
-            width: 440px;
-            height: 500px;
-            padding-bottom: 50px;
-            margin-right: 20px;
-            margin-top: 0;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: url(https://media.istockphoto.com/photos/colorful-defocused-abstract-photo-blur-background-picture-id494347092?b=1&k=20&m=494347092&s=170667a&w=0&h=I_IEFTnpBTQZc9e2wjuQezWU_7Yi5t_0F1EgBD3IaNQ=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#nav {
+    height: 4.375rem;
+    background-color: rgba(255, 255, 255, 0.563);
+}
+
+.navbar-brand {
+    font-size: 2.188rem;
+    margin-left: 1.875rem;
+    text-shadow: 3px 3px 5px rgb(222, 106, 17);
+}
+
+.nav-link {
+    font-size: 1.563rem;
+    margin-right: 1.875rem;
+}
+
+.img-carousel {
+    width: 100%;
+    height: 58rem;
+}
+
+p {
+    font-size: 1.563rem;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgb(222, 106, 17);
+    text-align: center;
+}
+
+.article {
+    margin: 50px 40px 50px 40px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(102, 189, 221, 0.707);
+    height: 3.75rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    font-size: 3rem;
+    font-weight: 200;
+    color: #ffff;
+    text-shadow: 4px 4px 6px rgb(20, 65, 123);
+}
+
+section {
+    position: relative;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.section-noticias {
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card {
+    width: 460px;
+    background-color: rgba(255, 255, 255, 0.563);
+    margin-top: 15px;
+}
+
+.card-title {
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgb(222, 106, 17);
+}
+
+.noticias-img {
+    margin-top: 40px;
+}
+
+.btn-noticias {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-style {
+    font-size: 30px;
+}
+
+iframe {
+    width: 400px;
+    height: 780px;
+    margin: 40px 20px 20px 20px;
+}
+
+.contacto-img {
+    width: 440px;
+    height: 500px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
+.suscripcion-h2 {
+    font-size: 35px;
+    margin: 30px 0 20px 10px;
+}
+
+label,
+input {
+    font-size: 25px;
+    width: 280px;
+}
+
+.btn-contacto {
+    width: 100px;
+    margin: 30px 0 0 300px;
+    border-radius: 7%;
+    background-color: rgba(222, 106, 17, 0.54);
+    font-size: 20px;
+}
+
+textarea {
+    width: 280px;
+}
+
+.h4-contacto {
+    font-size: 35px;
+    margin: 30px 0 20px 10px;
+}
+
+.h5-contacto {
+    font-size: 25px;
+    width: 300px;
+}
